@@ -1,0 +1,94 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.react-img {
+  width: 7rem;
+  height: 7rem;
+}
+.react-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #F6F4F0;
+}
+.react-headertext-container p,
+.react-headertext-container h1{
+  margin: 0;
+}
+
+.character-list{
+  display: flex;
+    justify-content: center;
+    flex-flow: wrap;
+    text-align: center;
+    line-height: 2;
+}
+
+
+.character-name{
+  border: 1px solid transparent;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 50px;
+  width: 200px;
+  margin: 20px;
+  cursor: pointer;
+  border-radius: 100px;
+}
+
+.character-detailsViews{
+  border: 1px solid transparent;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: auto;
+  line-height: 2;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.title{
+  text-align: center;
+}
+
+.gender {
+  display: inline-flex;
+}
+
+.gender-val {
+  margin-left: 10px;
+}
+
